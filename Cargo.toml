@@ -4,7 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-# use the latest alloy release; everything needed lives behind "sol-types"
 alloy      = { version = "0.8", default-features = false, features = ["sol-types"] }
 thiserror  = "1"
 smallvec   = { version = "1", features = ["union"] }
